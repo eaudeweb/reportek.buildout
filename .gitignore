@@ -1,0 +1,15 @@
+*.pyc
+*.egg-info
+*.wpr
+.installed.cfg
+eggs
+develop-eggs/
+products/
+include/
+local/
+parts/
+cache/
+src/
+var/
+lib/
+bin/
