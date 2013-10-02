@@ -1,10 +1,10 @@
-===================
 Reportek.Buildout
 ===================
 
 Install - CDR
 =============
 ::
+
     $ sudo bash
     $ apt-get install \
         python-dev libxslt1.1 libxslt-dev \
@@ -42,7 +42,7 @@ Install - CDR-CONVERTERS
     $ mkdir var
     $ cp <usb-stick>/cdr-converters/supervisord.conf
     $ sudo apt-get install unrar p7zip-full mdbtools wv xlhtml xsltproc unzip \
-           ppthtml pdftohtml
+    $      ppthtml pdftohtml
     $ you need java to be installed
     $ install gdal
     $ mkdir deploy/lib
