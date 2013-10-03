@@ -44,8 +44,9 @@ Install - CDR-CONVERTERS
     $ sudo apt-get install unrar p7zip-full mdbtools wv xlhtml xsltproc unzip \
     $      ppthtml pdftohtml
     $ you need java to be installed
-    $ install gdal
+    $ install gdal>1.8 (see http://trac.osgeo.org/gdal/wiki/DownloadingGdalBinaries)
     $ mkdir deploy/lib
-    $ cp <usb-stick>/cdr-converters/tika-app-1.2.jar /var/local/cdr-converters/deploy/lib
+    $ wget -P /var/local/cdr-converters/deploy/lib http://archive.apache.org/dist/tika/tika-app-1.2.jar (current version is 1.4 but I didn't try it)
+    $ nosetests
     $ supervisord
 
