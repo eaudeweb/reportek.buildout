@@ -52,7 +52,8 @@ Install - CDR-CONVERTERS
 
 Notest for BDR-3.5 (CentOS)
 ===========================
-yum install openldap24-libs-devel
-export CPATH=/usr/include/openldap24
-export LIBRARY_PATH=/usr/lib/openldap24/
-pip install python-ldap==2.3.13
+::
+    $ yum install openldap24-libs-devel
+    $ export CPATH=/usr/include/openldap24
+    $ export LIBRARY_PATH=/usr/lib/openldap24/
+    $ pip install python-ldap==2.3.13
