@@ -20,7 +20,7 @@ Install - CDR
     $ . bin/sandbox/activate
     $ rm -rf virtualenv-1.10.1
 
-    $ python boostrap.py -c prod.cfg
+    $ python bootstrap.py -c prod.cfg
     $ bin/buildout -c buildout.cfg
     $ cp <usb-stick>/cdr/supervisord.conf .
     $ cp <usb-stick>/cdr/Data.fs /var/local/cdr/var/filestorage/Data.fs
@@ -50,3 +50,9 @@ Install - CDR-CONVERTERS
     $ nosetests
     $ supervisord
 
+Notest for BDR-3.5 (CentOS)
+===========================
+yum install openldap24-libs-devel
+export CPATH=/usr/include/openldap24
+export LIBRARY_PATH=/usr/lib/openldap24/
+pip install python-ldap==2.3.13
