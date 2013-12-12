@@ -9,6 +9,7 @@ Install - CDR
     $ apt-get install \
         python-dev libxslt1.1 libxslt-dev \
         lxml-dev libldap2-dev libsasl2-dev
+    $ apt-get install graphviz
     $ mkdir /var/local/cdr
     $ cp <usb-stick>/repository/* /var/local/cdr
     $ adduser zope
